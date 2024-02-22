@@ -20,5 +20,7 @@ public class stops {
 
 };
     List<String> stringsList = Arrays.asList(stringsToAdd);
-
+    public boolean isStopWord(String token) {
+        return stringsList.contains(token);
+    }
 }
