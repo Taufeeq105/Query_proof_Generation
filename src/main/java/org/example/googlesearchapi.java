@@ -18,8 +18,8 @@ import java.util.List;
 public class googlesearchapi {
 
     private static final String CUSTOM_SEARCH_API_ENDPOINT = "https://www.googleapis.com/customsearch/v1";
-    private static final String API_KEY = "AIzaSyDaNPgf0eGrh8kzHc-pA88u1lJSB1WDdK0";  //
-    private static final String CX = "900dcf0e5ff9f4ecb";
+    private static final String API_KEY = "ADD_YOUR_KEY";  //
+    private static final String CX = "ADD_YOUR_KEY";
 
     public List<String> getSearchResults(String query) {
         List<String> resultUrls = new ArrayList<>();
